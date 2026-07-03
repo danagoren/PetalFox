@@ -10,6 +10,7 @@ public class GameManager : MonoBehaviour
         public float scrollSpeed = 1f;
         public int sortingOrder;
         public float verticalOffset;
+        public float horizontalOffset;
     }
 
     [SerializeField] private ParallaxLayer[] layers;
@@ -43,7 +44,7 @@ public class GameManager : MonoBehaviour
 
             float viewWidth = 2f * cam.orthographicSize * cam.aspect;
             int count = Mathf.CeilToInt(viewWidth / state.spriteWidth) + 1;
-            float startX = cam.transform.position.x - viewWidth / 2f;
+            float startX = cam.transform.position.x - viewWidth / 2f + config.horizontalOffset;
 
             for (int i = 0; i < count; i++)
             {

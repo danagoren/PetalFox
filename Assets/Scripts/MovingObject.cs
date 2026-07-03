@@ -11,20 +11,34 @@ public class MovingObject : MonoBehaviour
     private float objectHalfWidth;
     private bool edgeWarningShown;
 
+    private Rigidbody2D rb;
+
     void Start()
     {
+        rb = GetComponent<Rigidbody2D>();
+
         spawnPosition = spawnPoint != null ? spawnPoint.position : Vector3.zero;
-        transform.position = spawnPosition;
+
+        if (rb != null)
+            rb.position = spawnPosition;
+        else
+            transform.position = spawnPosition;
 
         var sr = GetComponent<SpriteRenderer>();
         if (sr != null)
             objectHalfWidth = sr.bounds.extents.x;
     }
 
+    void FixedUpdate()
+    {
+        if (rb != null)
+            rb.linearVelocity = Vector2.left * moveSpeed;
+        else
+            transform.position += Vector3.left * moveSpeed * Time.fixedDeltaTime;
+    }
+
     void Update()
     {
-        transform.position += Vector3.left * moveSpeed * Time.deltaTime;
-
         float threshold;
         if (edgePoint != null)
         {
@@ -37,13 +51,20 @@ public class MovingObject : MonoBehaviour
                 Debug.LogWarning("edgePoint is not assigned, falling back to camera left edge");
                 edgeWarningShown = true;
             }
+
             Camera cam = Camera.main;
             threshold = cam.transform.position.x - cam.orthographicSize * cam.aspect;
         }
 
-        if (transform.position.x + objectHalfWidth + offscreenBuffer < threshold)
+        float currentX = rb != null ? rb.position.x : transform.position.x;
+
+        if (currentX + objectHalfWidth + offscreenBuffer < threshold)
         {
-            transform.position = spawnPosition;
+            if (rb != null)
+                rb.position = spawnPosition;
+            else
+                transform.position = spawnPosition;
+
             gameObject.SetActive(true);
         }
     }
