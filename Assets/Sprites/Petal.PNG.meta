@@ -1,28 +1,16 @@
 fileFormatVersion: 2
-guid: 976d11d4943954f0b91860e10d170034
+guid: 7f56365a276ff4224974db5d09c8da70
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 4340335082315222149
-    second: C117537E-DB5D-41E5-9FB8-0F917477E9E6_0
+      213: 8559254225018072155
+    second: 44EF1A6F-AE0D-4BDB-AA5F-CE27C4315306_0
   - first:
-      213: 4722681478571246225
-    second: C117537E-DB5D-41E5-9FB8-0F917477E9E6_1
+      213: -7909382606745258691
+    second: 44EF1A6F-AE0D-4BDB-AA5F-CE27C4315306_1
   - first:
-      213: 7612157814557961789
-    second: C117537E-DB5D-41E5-9FB8-0F917477E9E6_2
-  - first:
-      213: -6459343879449542694
-    second: C117537E-DB5D-41E5-9FB8-0F917477E9E6_3
-  - first:
-      213: 7081607175388726294
-    second: C117537E-DB5D-41E5-9FB8-0F917477E9E6_4
-  - first:
-      213: -2291472946204280931
-    second: C117537E-DB5D-41E5-9FB8-0F917477E9E6_5
-  - first:
-      213: 910673058882870826
-    second: C117537E-DB5D-41E5-9FB8-0F917477E9E6_6
+      213: -7205893747709439758
+    second: 44EF1A6F-AE0D-4BDB-AA5F-CE27C4315306_2
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -134,10 +122,10 @@ TextureImporter:
       name: Petal_0
       rect:
         serializedVersion: 2
-        x: 68
-        y: 345
-        width: 221
-        height: 343
+        x: 141
+        y: 139
+        width: 286
+        height: 374
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -146,8 +134,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ed0a615d8444c4743b7858f23e1e262a
-      internalID: -1337682910
+      spriteID: 9ec3bef5e081d44c09ab0b8186035b90
+      internalID: -96523861
       vertices: []
       indices: 
       edges: []
@@ -156,10 +144,10 @@ TextureImporter:
       name: Petal_1
       rect:
         serializedVersion: 2
-        x: 369
-        y: 358
-        width: 199
-        height: 333
+        x: 568
+        y: 120
+        width: 297
+        height: 404
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -168,8 +156,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 00ecea99b6dd24997abfeb279185d2e7
-      internalID: -215610703
+      spriteID: 55451a5acccc34d2dbf6c988e7ade403
+      internalID: 1402042122
       vertices: []
       indices: 
       edges: []
@@ -178,10 +166,10 @@ TextureImporter:
       name: Petal_2
       rect:
         serializedVersion: 2
-        x: 672
-        y: 360
-        width: 238
-        height: 327
+        x: 983
+        y: 121
+        width: 278
+        height: 412
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -190,52 +178,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6c7daaf22cdb64d788cff36cc8fef516
-      internalID: -1193814968
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Petal_3
-      rect:
-        serializedVersion: 2
-        x: 996
-        y: 339
-        width: 203
-        height: 380
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 40f7d3b4abde045f69f7512b08d326e0
-      internalID: -180177248
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Petal_4
-      rect:
-        serializedVersion: 2
-        x: 1259
-        y: 330
-        width: 245
-        height: 353
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: da4cbe4959dbc4378bcc057f39d9abaa
-      internalID: 1031569943
+      spriteID: 2f8e9355180bc4e43aa92d48c0fdf81c
+      internalID: 1540210032
       vertices: []
       indices: 
       edges: []
@@ -244,7 +188,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 9fca8cc22874946f1931055ed131c174
+    spriteID: e2fb6b25e5aec41f79fed4b26c202789
     internalID: 0
     vertices: []
     indices: 
@@ -254,13 +198,11 @@ TextureImporter:
     spriteCustomMetadata:
       entries:
       - key: SpriteEditor.SliceSettings
-        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":1536.0,"y":1024.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":1387.0,"y":596.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
-      Petal_0: -1337682910
-      Petal_1: -215610703
-      Petal_2: -1193814968
-      Petal_3: -180177248
-      Petal_4: 1031569943
+      Petal_0: -96523861
+      Petal_1: 1402042122
+      Petal_2: 1540210032
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

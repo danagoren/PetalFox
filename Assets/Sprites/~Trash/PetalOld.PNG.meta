@@ -1,22 +1,28 @@
 fileFormatVersion: 2
-guid: bf46c919d64aa494ab1118e87ef770e1
+guid: 976d11d4943954f0b91860e10d170034
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -5176206841846012549
-    second: 748D3F92-DE72-409A-B58C-4281E7E00082 2_0
+      213: 4340335082315222149
+    second: C117537E-DB5D-41E5-9FB8-0F917477E9E6_0
   - first:
-      213: -2480643358699655085
-    second: 748D3F92-DE72-409A-B58C-4281E7E00082 2_1
+      213: 4722681478571246225
+    second: C117537E-DB5D-41E5-9FB8-0F917477E9E6_1
   - first:
-      213: 1304810351699809932
-    second: 748D3F92-DE72-409A-B58C-4281E7E00082 2_2
+      213: 7612157814557961789
+    second: C117537E-DB5D-41E5-9FB8-0F917477E9E6_2
   - first:
-      213: 8868908502088305674
-    second: 748D3F92-DE72-409A-B58C-4281E7E00082 2_3
+      213: -6459343879449542694
+    second: C117537E-DB5D-41E5-9FB8-0F917477E9E6_3
   - first:
-      213: -1581744794341394332
-    second: 748D3F92-DE72-409A-B58C-4281E7E00082 2_4
+      213: 7081607175388726294
+    second: C117537E-DB5D-41E5-9FB8-0F917477E9E6_4
+  - first:
+      213: -2291472946204280931
+    second: C117537E-DB5D-41E5-9FB8-0F917477E9E6_5
+  - first:
+      213: 910673058882870826
+    second: C117537E-DB5D-41E5-9FB8-0F917477E9E6_6
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -125,89 +131,111 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: FoxRun_0
+      name: Petal_0
       rect:
         serializedVersion: 2
-        x: 29
-        y: 824
-        width: 618
-        height: 388
-      alignment: 9
-      pivot: {x: 0.34877625, y: 0.18337888}
+        x: 68
+        y: 345
+        width: 221
+        height: 343
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 813c78ca9eb7c424c93e047095036ea3
-      internalID: 2000598100
+      spriteID: ed0a615d8444c4743b7858f23e1e262a
+      internalID: -1337682910
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: FoxRun_1
+      name: Petal_1
       rect:
         serializedVersion: 2
-        x: 702
-        y: 860
-        width: 618
-        height: 388
-      alignment: 9
-      pivot: {x: 0.254629, y: 0.094052345}
+        x: 369
+        y: 358
+        width: 199
+        height: 333
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 08aac3aad1718455fbdb8a6db06be8f8
-      internalID: 10347525
+      spriteID: 00ecea99b6dd24997abfeb279185d2e7
+      internalID: -215610703
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: FoxRun_2
+      name: Petal_2
       rect:
         serializedVersion: 2
-        x: 25
-        y: 295
-        width: 618
-        height: 388
-      alignment: 9
-      pivot: {x: 0.3016196, y: 0.059061974}
+        x: 672
+        y: 360
+        width: 238
+        height: 327
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3b81f82c604cd4b2f8ef94fd2c6b4f40
-      internalID: 1025317096
+      spriteID: 6c7daaf22cdb64d788cff36cc8fef516
+      internalID: -1193814968
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: FoxRun_3
+      name: Petal_3
       rect:
         serializedVersion: 2
-        x: 685
-        y: 283
-        width: 618
-        height: 388
-      alignment: 9
-      pivot: {x: 0.28222883, y: 0.093274854}
+        x: 996
+        y: 339
+        width: 203
+        height: 380
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 097c2cd736e9848b6b75db4a6e6c1545
-      internalID: 775215947
+      spriteID: 40f7d3b4abde045f69f7512b08d326e0
+      internalID: -180177248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Petal_4
+      rect:
+        serializedVersion: 2
+        x: 1259
+        y: 330
+        width: 245
+        height: 353
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da4cbe4959dbc4378bcc057f39d9abaa
+      internalID: 1031569943
       vertices: []
       indices: 
       edges: []
@@ -216,7 +244,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: b5da0882e007d47dd87fc53c05d1dd1d
+    spriteID: 9fca8cc22874946f1931055ed131c174
     internalID: 0
     vertices: []
     indices: 
@@ -226,12 +254,13 @@ TextureImporter:
     spriteCustomMetadata:
       entries:
       - key: SpriteEditor.SliceSettings
-        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":1322.0,"y":1322.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":1536.0,"y":1024.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
-      FoxRun_0: 2000598100
-      FoxRun_1: 10347525
-      FoxRun_2: 1025317096
-      FoxRun_3: 775215947
+      Petal_0: -1337682910
+      Petal_1: -215610703
+      Petal_2: -1193814968
+      Petal_3: -180177248
+      Petal_4: 1031569943
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -49,8 +49,10 @@
     <Analyzer Include="/Applications/Unity/Hub/Editor/6000.4.7f1/Unity.app/Contents/Resources/BuildPipeline/Unity.SourceGenerators/Unity.UIToolkit.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets/Scripts/Platform.cs" />
     <Compile Include="Assets/Scripts/FoxPlayer.cs" />
     <Compile Include="Assets/Scripts/MovingObject.cs" />
+    <Compile Include="Assets/Scripts/Berry.cs" />
     <Compile Include="Assets/Scripts/GameManager.cs" />
   </ItemGroup>
   <ItemGroup>

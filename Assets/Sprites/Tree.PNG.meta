@@ -1,22 +1,25 @@
 fileFormatVersion: 2
-guid: bf46c919d64aa494ab1118e87ef770e1
+guid: 9bd43854d968b43118d685d75d4dee8c
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -5176206841846012549
-    second: 748D3F92-DE72-409A-B58C-4281E7E00082 2_0
+      213: -8479712938755325988
+    second: F7B05935-4EE0-4277-AEDF-CD5692631034_0
   - first:
-      213: -2480643358699655085
-    second: 748D3F92-DE72-409A-B58C-4281E7E00082 2_1
+      213: -608056471024575433
+    second: F7B05935-4EE0-4277-AEDF-CD5692631034_1
   - first:
-      213: 1304810351699809932
-    second: 748D3F92-DE72-409A-B58C-4281E7E00082 2_2
+      213: -5102102898788103719
+    second: F7B05935-4EE0-4277-AEDF-CD5692631034_2
   - first:
-      213: 8868908502088305674
-    second: 748D3F92-DE72-409A-B58C-4281E7E00082 2_3
+      213: 2906793370391908825
+    second: F7B05935-4EE0-4277-AEDF-CD5692631034_3
   - first:
-      213: -1581744794341394332
-    second: 748D3F92-DE72-409A-B58C-4281E7E00082 2_4
+      213: -2797855063003422390
+    second: F7B05935-4EE0-4277-AEDF-CD5692631034_4
+  - first:
+      213: -6076329108609948525
+    second: F7B05935-4EE0-4277-AEDF-CD5692631034_5
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -125,89 +128,89 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: FoxRun_0
+      name: Tree_0
       rect:
         serializedVersion: 2
-        x: 29
-        y: 824
-        width: 618
-        height: 388
-      alignment: 9
-      pivot: {x: 0.34877625, y: 0.18337888}
+        x: 65
+        y: 1074
+        width: 1340
+        height: 961
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 813c78ca9eb7c424c93e047095036ea3
-      internalID: 2000598100
+      spriteID: f02a5749baada4413bcd21b2c241e691
+      internalID: -1569983341
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: FoxRun_1
+      name: Tree_1
       rect:
         serializedVersion: 2
-        x: 702
-        y: 860
-        width: 618
-        height: 388
-      alignment: 9
-      pivot: {x: 0.254629, y: 0.094052345}
+        x: 1578
+        y: 1107
+        width: 1314
+        height: 1009
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 08aac3aad1718455fbdb8a6db06be8f8
-      internalID: 10347525
+      spriteID: 6e21fe29634d54b11bc92bb0567fb709
+      internalID: -1497969264
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: FoxRun_2
+      name: Tree_2
       rect:
         serializedVersion: 2
-        x: 25
-        y: 295
-        width: 618
-        height: 388
-      alignment: 9
-      pivot: {x: 0.3016196, y: 0.059061974}
+        x: 33
+        y: 28
+        width: 1409
+        height: 1014
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3b81f82c604cd4b2f8ef94fd2c6b4f40
-      internalID: 1025317096
+      spriteID: d9737056718c84141bd01f62ec993871
+      internalID: 845153461
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: FoxRun_3
+      name: Tree_3
       rect:
         serializedVersion: 2
-        x: 685
-        y: 283
-        width: 618
-        height: 388
-      alignment: 9
-      pivot: {x: 0.28222883, y: 0.093274854}
+        x: 1550
+        y: 18
+        width: 1390
+        height: 953
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 097c2cd736e9848b6b75db4a6e6c1545
-      internalID: 775215947
+      spriteID: ee5e95da37d4c49ee80cb9a821779497
+      internalID: 1323752689
       vertices: []
       indices: 
       edges: []
@@ -216,7 +219,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: b5da0882e007d47dd87fc53c05d1dd1d
+    spriteID: c54a3eb6b230c4735bf5be20a6b67a68
     internalID: 0
     vertices: []
     indices: 
@@ -226,12 +229,12 @@ TextureImporter:
     spriteCustomMetadata:
       entries:
       - key: SpriteEditor.SliceSettings
-        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":1322.0,"y":1322.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":2999.0,"y":2170.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
-      FoxRun_0: 2000598100
-      FoxRun_1: 10347525
-      FoxRun_2: 1025317096
-      FoxRun_3: 775215947
+      Tree_0: -1569983341
+      Tree_1: -1497969264
+      Tree_2: 845153461
+      Tree_3: 1323752689
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
