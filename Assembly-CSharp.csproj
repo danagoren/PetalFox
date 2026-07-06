@@ -53,6 +53,7 @@
     <Compile Include="Assets/Scripts/FoxPlayer.cs" />
     <Compile Include="Assets/Scripts/MovingObject.cs" />
     <Compile Include="Assets/Scripts/Berry.cs" />
+    <Compile Include="Assets/Scripts/MovingObjectOnce.cs" />
     <Compile Include="Assets/Scripts/GameManager.cs" />
   </ItemGroup>
   <ItemGroup>

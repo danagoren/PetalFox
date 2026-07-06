@@ -6,16 +6,21 @@ public class MovingObject : MonoBehaviour
     [SerializeField] private Transform edgePoint;
     [SerializeField] private float moveSpeed = 5f;
     [SerializeField] private float offscreenBuffer = 0.5f;
+    [SerializeField] private float startDelay = 0f;
 
     private Vector3 spawnPosition;
+    private float _readyTime;
     private float objectHalfWidth;
     private bool edgeWarningShown;
+    private bool firstIteration;
 
     private Rigidbody2D rb;
 
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
+        _readyTime = Time.time + startDelay;
+        firstIteration = true;
 
         spawnPosition = spawnPoint != null ? spawnPoint.position : Vector3.zero;
 
@@ -31,6 +36,9 @@ public class MovingObject : MonoBehaviour
 
     void FixedUpdate()
     {
+        if (Time.time < _readyTime && firstIteration) return;
+        firstIteration = false;
+
         if (rb != null)
             rb.linearVelocity = Vector2.left * moveSpeed;
         else
@@ -39,6 +47,8 @@ public class MovingObject : MonoBehaviour
 
     void Update()
     {
+        if (Time.time < _readyTime) return;
+
         float threshold;
         if (edgePoint != null)
         {
@@ -65,7 +75,17 @@ public class MovingObject : MonoBehaviour
             else
                 transform.position = spawnPosition;
 
+            _readyTime = Time.time + startDelay;
             gameObject.SetActive(true);
+
+            foreach (var sr in GetComponentsInChildren<SpriteRenderer>())
+                sr.enabled = true;
+
+            foreach (var col in GetComponentsInChildren<Collider2D>())
+                col.enabled = true;
+
+            foreach (var berry in GetComponentsInChildren<Berry>())
+                berry.ResetState();
         }
     }
 }

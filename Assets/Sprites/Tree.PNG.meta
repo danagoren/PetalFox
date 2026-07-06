@@ -1,25 +1,22 @@
 fileFormatVersion: 2
-guid: 9bd43854d968b43118d685d75d4dee8c
+guid: 59455ce0609eb41fe9aa7f22d2d0f479
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -8479712938755325988
-    second: F7B05935-4EE0-4277-AEDF-CD5692631034_0
+      213: 8418910558961956286
+    second: F7B05935-4EE0-4277-AEDF-CD5692631034 2_0
   - first:
-      213: -608056471024575433
-    second: F7B05935-4EE0-4277-AEDF-CD5692631034_1
+      213: -2140656910158154415
+    second: F7B05935-4EE0-4277-AEDF-CD5692631034 2_1
   - first:
-      213: -5102102898788103719
-    second: F7B05935-4EE0-4277-AEDF-CD5692631034_2
+      213: -6224115740834418357
+    second: F7B05935-4EE0-4277-AEDF-CD5692631034 2_2
   - first:
-      213: 2906793370391908825
-    second: F7B05935-4EE0-4277-AEDF-CD5692631034_3
+      213: 7832777084469114035
+    second: F7B05935-4EE0-4277-AEDF-CD5692631034 2_3
   - first:
-      213: -2797855063003422390
-    second: F7B05935-4EE0-4277-AEDF-CD5692631034_4
-  - first:
-      213: -6076329108609948525
-    second: F7B05935-4EE0-4277-AEDF-CD5692631034_5
+      213: -4646911800304081769
+    second: F7B05935-4EE0-4277-AEDF-CD5692631034 2_4
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -131,10 +128,10 @@ TextureImporter:
       name: Tree_0
       rect:
         serializedVersion: 2
-        x: 65
-        y: 1074
-        width: 1340
-        height: 961
+        x: 64
+        y: 154
+        width: 1339
+        height: 990
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -143,8 +140,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f02a5749baada4413bcd21b2c241e691
-      internalID: -1569983341
+      spriteID: 7bdc6220ff4ce4d788288af562a1c13c
+      internalID: -2034519014
       vertices: []
       indices: 
       edges: []
@@ -154,9 +151,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 1578
-        y: 1107
-        width: 1314
-        height: 1009
+        y: 255
+        width: 1315
+        height: 960
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -165,8 +162,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6e21fe29634d54b11bc92bb0567fb709
-      internalID: -1497969264
+      spriteID: dbc78811166d84d27bd5b5df217d62b6
+      internalID: 1387331697
       vertices: []
       indices: 
       edges: []
@@ -175,10 +172,10 @@ TextureImporter:
       name: Tree_2
       rect:
         serializedVersion: 2
-        x: 33
-        y: 28
-        width: 1409
-        height: 1014
+        x: 3131
+        y: 259
+        width: 1392
+        height: 905
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -187,30 +184,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d9737056718c84141bd01f62ec993871
-      internalID: 845153461
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Tree_3
-      rect:
-        serializedVersion: 2
-        x: 1550
-        y: 18
-        width: 1390
-        height: 953
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: ee5e95da37d4c49ee80cb9a821779497
-      internalID: 1323752689
+      spriteID: 35883ea0f31aa4c7fb8908de1a14c145
+      internalID: 1334106186
       vertices: []
       indices: 
       edges: []
@@ -219,7 +194,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: c54a3eb6b230c4735bf5be20a6b67a68
+    spriteID: 17f19729faa284f6e8d3bafe73a1f590
     internalID: 0
     vertices: []
     indices: 
@@ -229,12 +204,11 @@ TextureImporter:
     spriteCustomMetadata:
       entries:
       - key: SpriteEditor.SliceSettings
-        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":2999.0,"y":2170.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":4713.0,"y":1299.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
-      Tree_0: -1569983341
-      Tree_1: -1497969264
-      Tree_2: 845153461
-      Tree_3: 1323752689
+      Tree_0: -2034519014
+      Tree_1: 1387331697
+      Tree_2: 1334106186
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

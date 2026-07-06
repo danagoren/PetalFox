@@ -16,8 +16,6 @@ public class Platform : MonoBehaviour
 
         float dot = Vector2.Dot(direction, Vector2.up);
  
-
-        Debug.Log("Player entered trigger");
         if (dot < 0f)
             mainCollider.enabled = false;
     }
@@ -28,8 +26,6 @@ public class Platform : MonoBehaviour
 
         if (player == null)
             return;
-
-        Debug.Log("Player exited trigger");
 
         mainCollider.enabled = true;
     }
