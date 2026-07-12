@@ -30,7 +30,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.1, y: 0.1, z: 1}
+  m_LocalScale: {x: 0.11, y: 0.11, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -84,7 +84,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 5
   m_MaskInteraction: 0
-  m_Sprite: {fileID: -1701411331, guid: 933e1639a5791424e9a1f40817513f6e, type: 3}
+  m_Sprite: {fileID: 701256409, guid: 05b59b57303a14b66b89ed093c08cbe1, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -143,10 +143,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Berry
   collectSprites:
-  - {fileID: -1701411331, guid: 933e1639a5791424e9a1f40817513f6e, type: 3}
-  - {fileID: -1745926985, guid: 933e1639a5791424e9a1f40817513f6e, type: 3}
-  - {fileID: 60987667, guid: 933e1639a5791424e9a1f40817513f6e, type: 3}
-  - {fileID: -786361544, guid: 933e1639a5791424e9a1f40817513f6e, type: 3}
+  - {fileID: 701256409, guid: 05b59b57303a14b66b89ed093c08cbe1, type: 3}
+  - {fileID: -1622300617, guid: 05b59b57303a14b66b89ed093c08cbe1, type: 3}
+  - {fileID: -1555913163, guid: 05b59b57303a14b66b89ed093c08cbe1, type: 3}
+  - {fileID: -1295520903, guid: 05b59b57303a14b66b89ed093c08cbe1, type: 3}
   animDuration: 0.5
 --- !u!114 &-5021544087581758887
 MonoBehaviour:
@@ -164,3 +164,4 @@ MonoBehaviour:
   edgePoint: {fileID: 0}
   moveSpeed: 4
   offscreenBuffer: 0.5
+  startDelay: 0

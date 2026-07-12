@@ -23,24 +23,25 @@ public class FoxPlayer : MonoBehaviour
         _sr = GetComponent<SpriteRenderer>();
     }
 
+    public void TryJump()
+    {
+        bool grounded = playerCollider.IsTouchingLayers(groundLayer);
+        if (isJumping || !grounded || _rb.linearVelocity.y >= 0.1f) return;
+
+        _rb.linearVelocity = new Vector2(_rb.linearVelocity.x, jumpForce);
+        _animator.enabled = false;
+        if (jumpSprite != null)
+            _sr.sprite = jumpSprite;
+        isJumping = true;
+    }
+
     private void Update()
     {
         bool grounded = playerCollider.IsTouchingLayers(groundLayer);
 
-        if (!isJumping &&
-            grounded &&
-            _rb.linearVelocity.y < 0.1f &&
-            (Keyboard.current.spaceKey.wasPressedThisFrame ||
-             Mouse.current.leftButton.wasPressedThisFrame))
+        if (Keyboard.current.spaceKey.wasPressedThisFrame)
         {
-            _rb.linearVelocity = new Vector2(_rb.linearVelocity.x, jumpForce);
-
-            _animator.enabled = false;
-
-            if (jumpSprite != null)
-                _sr.sprite = jumpSprite;
-
-            isJumping = true;
+            TryJump();
         }
 
         if (isJumping && grounded && _rb.linearVelocity.y <= 0f)
