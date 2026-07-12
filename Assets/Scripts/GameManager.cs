@@ -14,6 +14,7 @@ public class GameManager : MonoBehaviour
     }
 
     [SerializeField] private ParallaxLayer[] layers;
+    [SerializeField] private float segmentOverlap = 0.01f;
 
     private Camera cam;
     private List<LayerState> layerStates;
@@ -46,9 +47,10 @@ public class GameManager : MonoBehaviour
             int count = Mathf.CeilToInt(viewWidth / state.spriteWidth) + 1;
             float startX = cam.transform.position.x - viewWidth / 2f + config.horizontalOffset;
 
+            float step = state.spriteWidth - segmentOverlap;
             for (int i = 0; i < count; i++)
             {
-                float centerX = startX + i * state.spriteWidth + state.halfSpriteWidth;
+                float centerX = startX + i * step + state.halfSpriteWidth;
                 state.segments.Add(CreateSegment(config, centerX));
             }
 
@@ -87,11 +89,12 @@ public class GameManager : MonoBehaviour
                 var last = state.segments[^1];
                 float rightEdge = last.transform.position.x + halfW;
 
+                float step = state.spriteWidth - segmentOverlap;
                 while (rightEdge < viewRight + state.spriteWidth)
                 {
-                    float newX = rightEdge + state.halfSpriteWidth;
+                    float newX = rightEdge + state.halfSpriteWidth - segmentOverlap;
                     state.segments.Add(CreateSegment(state.config, newX));
-                    rightEdge += state.spriteWidth;
+                    rightEdge += step;
                 }
             }
         }

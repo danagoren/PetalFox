@@ -34,6 +34,7 @@ public class Berry : MonoBehaviour
         if (_collected || !other.CompareTag("Player")) return;
         _collected = true;
         _col.enabled = false;
+        if (UICounter.Instance != null) UICounter.Instance.AddCount();
         StartCoroutine(CollectAnimation());
     }
 
